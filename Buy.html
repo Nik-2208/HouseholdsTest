@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>𝙃𝙊𝙐𝙎𝙀𝙃𝙊𝙇𝘿 𝘼𝙋𝙋𝙇𝙄𝘼𝙉𝘾𝙀𝙎 𝙎𝙏𝙊𝙍𝙀</title>
+<link rel="icon" type="image/x-icon" href="LOGO.png">
+<style>  
+.navbar
+{
+align-content: normal;
+position: fixed; 
+top: -16px;
+left: 0px; 
+}
+.navbar ul
+{
+position: fixed;
+box-shadow: -20px 35px 40px -30px;
+overflow: auto;
+background-color: black;
+}
+.navbar li
+{
+float: left;
+list-style: none;
+padding: 4px 9px;
+margin: 5px 10px
+}
+.navbar li a
+{
+text-decoration: none;
+color: white;
+}
+.navbar li a:hover 
+{
+color: cyan;
+}
+.Search
+{ 
+position: fixed;
+top: -1.5px;
+left: 370px;
+background-color: black;
+padding: 33px 25px;
+box-shadow: 0px 25px 30px -25px;
+}
+.Logo
+{
+position: fixed;
+overflow: hidden;
+background-color: black;
+text-decoration: none;
+top: -2.2px;
+right: -141px;
+padding: 2px 180px;
+box-shadow: 0px 25px 30px -25px;
+}
+.dropdown 
+{
+position: absolute;
+padding: 5px 0px;
+margin: 1px 0px;
+background: white;
+color: black;
+border-radius: 3px;
+display: none;	
+}
+.products:hover .dropdown 
+{
+display: block;
+}
+.products a 
+{
+display: flex;
+align-items: center;
+}
+.dropdown li 
+{
+list-style: none;
+font-weight: 600;
+padding: 1px 11px;
+font-size: 20px;
+}
+.footer
+{
+text-align: center;
+padding: 30px;
+display: flex;
+background-color: #000000;
+font-size: 22px;
+color: #88a6ff;
+box-shadow: inset 0px 0px 30px 10px #0013ff;
+}
+.footer div h2
+{
+text-align: center;
+letter-spacing: 2;
+font-weight: 800;
+}
+.links a
+{
+text-decoration: none;
+display: block;
+}
+.links a:hover
+{
+color: white;
+}
+form input
+{
+width: 200px;
+height: 30px;
+border-radius: 3px;
+text-align: center;
+border-top: 20px;
+outline: none;
+border: none;
+}
+form button
+{
+margin-top: 20px;
+border: 2px solid white;
+border-radius: 50%;
+padding: 25px 30px;
+background: transparent;
+color: white;
+cursor: pointer;
+font-size: large;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script type = "text/javascript">
+function callvalue()
+{ 
+var name = document.getElementById("name").value;
+var gender = document.getElementById("gender").value;
+var number = document.getElementById("number").value;
+var email = document.getElementById("email").value;
+var date = document.getElementById("date").value;
+var address = document.getElementById("address").value;
+var pincode = document.getElementById("pincode").value;
+document.writeln("YOUR INFORMATION :- "<br>)
+document.writeln("NAME : " +name<br>)
+document.writeln("GENDER : " +gender<br>)
+document.writeln("NUMBER : " +number<br>)
+document.writeln("E-MAIL ID : " +email<br>)
+document.writeln("DATE : " +date<br>)
+document.writeln("ADDRESS : " +address<br>)
+document.writeln("PINCODE : " +pincode<br>)
+}
+</script> 
+NOT USED JAVASCRIPT SINCE NOT TAUGHT -->
+</head> 
+<body style = "background-color: black;"> 
+<header>
+<div class = "navbar">
+<ul>
+<li><a href="MICROPROJECT.html"><h2> Home </h2> </a></li>
+<li><a href="ABOUT.html"><h2> About </h2></a></li>
+<li class = "products"><a href="#"><h2> Products </h2></a>
+<ul class = "dropdown">
+<li><a href="#Refrigerators">Refrigerators</a></li>
+<li><a href="#Ovens">Microwave Ovens</a></li>
+<li><a href="#Machines">Washing Machines</a></li><br>
+<li><a href="#Televisions">Television</a></li>
+</li>
+</ul>
+<li><br></li>
+</ul>                                    
+</div>
+<div class = "Search">
+<input type="search" placeholder="Search for products..." style= "width: 45vw; background-color: #d9fdf3;">
+</div>
+<div class = "Logo">
+<a href = "MICROPROJECT.html"> 
+<img src = "LOGO.png" width = 80 height =80 style = "background-color: black;">
+</div>
+</a>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<marquee style = "font-size: xxx-large; background-color: black; color: #022ed4; font-family: fantasy; box-shadow: inset 0px 0px 20px 2px #0013ff;"> THANK YOU FOR CHOOSING US! </marquee>
+<legend align = "center" style = "font-size: x-large; font-family: Times New Roman; font-weight: bold; background-color: black; color: #00fbff; padding: 10px 20px; box-shadow: inset 0px 1px 15px 10px #002bce;">CHECKOUT PAGE</legend>
+<form autocomplete = "on" method = "POST" action = "FEEDBACK.html" onsubmit = "callvalue()" style = "background-color: black; color: #00fbff; padding: 10px 20px; box-shadow: inset 0px 1px 15px 10px #002bce;">
+<i class = "fa fa-user icon"></i>&nbsp <label for = "name" id = "name"> Name : </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input type = "text" placeholder = "Enter your Name..." style = "outline: auto;" required><br><br>
+<i class="fa fa-venus icon"></i>&nbsp <label for = "gender" id = "gender"> Gender :</label>
+<p style = "outline: auto;">Female : <input type="radio" name="Gender"><br>
+Male : &nbsp &nbsp <input type="radio" name="Gender"><br>
+Other : &nbsp <input type="radio" name="Gender"><br></p>
+<i class="fa fa-phone icon"></i><label for = "number" id = "number"> Contact Number : </label>&nbsp &nbsp
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder = "Enter your Number..." style = "outline: auto;" required><br><br>
+<i class="fa fa-envelope icon"></i>&nbsp <label for = "email" id = "email">Email Id : <label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input type = "email" placeholder = "Enter your Email..." style = "outline: auto;" required>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<i class="fa fa-key icon"></i><label for = "password"> Password : </label>
+<input type = "password" placeholder = "Enter your Password..." style = "outline: auto;" required><br><br>
+<i class="fa fa-calendar icon"></i>&nbsp <label for = "date" id = "date"> Date of Birth : </label>&nbsp &nbsp &nbsp &nbsp
+<input type = "date" placeholder = "Enter your Date of Birth..." style = "outline: auto;" required><br><br>
+<i class="fa fa-home icon"></i><label for = "address" id = "address"> Address : </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input type = "textarea" placeholder = "Enter your Address..." style = "outline: auto;" required> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<i class="fa fa-home icon"></i>&nbsp <label for = "pincode" id = "pincode"> Pincode : </label>
+<input type = "number" max = "999999" placeholder = "Enter your Pincode..." style = "outline: auto;" required><br><br>
+<hr>
+<i class="fa fa-file icon"></i><label for = "checkbox"> Billing Address same as shipping address </label>
+<input type = "checkbox" required><br><br><hr>
+<input type="submit" value="Submit" style = "cursor: pointer;"> &nbsp
+<input type="reset" value="Reset" style = "cursor: pointer;">
+</form>
+<br>
+<br>
+<br>
+
+<footer>
+<div class = "footer">
+<div class = "links">
+<h2>Links</h2>
+<a href = "WD.html"> Home </a>
+<a href = "ABOUT.html"> About </a>
+<a href = "WD.html"> Products </a>
+</div>
+<div class = "news" style = "flex-grow: 2;">
+<h2>Newsletter</h2>
+<form>
+<label for ="email">Email: </label>
+<input type="email" placeholder="Enter Your Email Address">
+<br>
+<button type = "submit">Subscribe</button>
+</form>
+</div>
+<div class = "contact">
+<h2>Contact Us </h2>
+<p>123, ABC Road, Sector 5, Ghatkopar east<br>
+Mumbai, Maharashtra, India</p>
+</footer>
+</body>
+</html>
